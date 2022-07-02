@@ -1,7 +1,7 @@
 {
     "name": "@aiaway/utils",
     "version": "1.0.0",
-    "description": "提供各类工具方法",
+    "description": "提供各种工具方法",
     "dependencies": {
         "dotenv": "^16.0.1"
     }

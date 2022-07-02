@@ -42,7 +42,7 @@ export function readAsBuffer(from: Readable): Promise<Buffer> {
  * 读取流内的数据，返回ArrayBuffer
  * @param from 源流
  */
-export async function readAsArrayBuffer(from: Readable): Promise<ArrayBuffer> {
+export async function readAsArrayBuffer(from: Readable): Promise<ArrayBufferLike> {
     return (await readAsBuffer(from)).buffer
 }
 
