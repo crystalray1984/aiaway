@@ -107,3 +107,5 @@ export function config(modeOrOptions?: string | EnvConfigOptions) {
 
     return env
 }
+
+export default config

@@ -1,0 +1,6 @@
+{
+    "name": "@aiaway/wechat",
+    "version": "1.0.0",
+    "description": "提供微信工具方法",
+    "dependencies": {}
+}
