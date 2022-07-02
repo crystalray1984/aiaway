@@ -1,0 +1,8 @@
+{
+    "name": "@aiaway/env",
+    "version": "1.0.0",
+    "description": "根据运行环境加载工作目录下的.env文件作为环境变量",
+    "dependencies": {
+        "dotenv": "^16.0.1"
+    }
+}
