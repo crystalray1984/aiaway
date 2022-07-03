@@ -15,6 +15,8 @@ export interface RequestOptions extends https.RequestOptions {
     dataEncoding?: BufferEncoding
 }
 
+export { Response } from './response'
+
 export default function (options: RequestOptions): Promise<Response> {
     const { url, baseURL, params, data, dataEncoding, ...rest } = options
 
